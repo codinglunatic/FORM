@@ -110,7 +110,6 @@ public class MainActivity extends AppCompatActivity implements DatePickerDialog.
             @Override
             public void onClick(View view) {
 
-                // Please note that use your package name here
                 com.example.form.Datepicker mDatePickerDialogFragment;
                 mDatePickerDialogFragment = new com.example.form.Datepicker();
                 mDatePickerDialogFragment.show(getSupportFragmentManager(), "DATE PICK");
