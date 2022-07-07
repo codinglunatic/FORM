@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".display">
+
+    <TextView
+        android:id="@+id/textView19"
+        android:layout_width="102dp"
+        android:layout_height="53dp"
+        android:layout_marginTop="64dp"
+        android:layout_marginEnd="25dp"
+        android:text="date of birth"
+        app:layout_constraintEnd_toStartOf="@+id/t8"
+        app:layout_constraintTop_toBottomOf="@+id/textView18" />
+
+    <TextView
+        android:id="@+id/textView17"
+        android:layout_width="102dp"
+        android:layout_height="53dp"
+        android:layout_marginTop="68dp"
+        android:layout_marginEnd="27dp"
+        android:text="age"
+        app:layout_constraintEnd_toStartOf="@+id/t6"
+        app:layout_constraintTop_toBottomOf="@+id/textView16" />
+
+    <TextView
+        android:id="@+id/textView20"
+        android:layout_width="102dp"
+        android:layout_height="53dp"
+        android:layout_marginTop="60dp"
+        android:layout_marginEnd="25dp"
+        android:text="email"
+        app:layout_constraintEnd_toStartOf="@+id/t9"
+        app:layout_constraintTop_toBottomOf="@+id/textView19" />
+
+    <TextView
+        android:id="@+id/t5"
+        android:layout_width="163dp"
+        android:layout_height="53dp"
+        android:layout_marginEnd="60dp"
+        android:layout_marginBottom="68dp"
+        app:layout_constraintBottom_toTopOf="@+id/t6"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <TextView
+        android:id="@+id/t7"
+        android:layout_width="163dp"
+        android:layout_height="53dp"
+        android:layout_marginEnd="60dp"
+        android:layout_marginBottom="64dp"
+        app:layout_constraintBottom_toTopOf="@+id/t8"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <TextView
+        android:id="@+id/t9"
+        android:layout_width="163dp"
+        android:layout_height="53dp"
+        android:layout_marginEnd="60dp"
+        android:layout_marginBottom="108dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <TextView
+        android:id="@+id/t6"
+        android:layout_width="153dp"
+        android:layout_height="55dp"
+        android:layout_marginEnd="68dp"
+        android:layout_marginBottom="80dp"
+        app:layout_constraintBottom_toTopOf="@+id/t7"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <TextView
+        android:id="@+id/t8"
+        android:layout_width="163dp"
+        android:layout_height="53dp"
+        android:layout_marginEnd="60dp"
+        android:layout_marginBottom="60dp"
+        app:layout_constraintBottom_toTopOf="@+id/t9"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <TextView
+        android:id="@+id/textView16"
+        android:layout_width="102dp"
+        android:layout_height="53dp"
+        android:layout_marginTop="84dp"
+        android:layout_marginEnd="25dp"
+        android:text="name"
+        app:layout_constraintEnd_toStartOf="@+id/t5"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView18"
+        android:layout_width="102dp"
+        android:layout_height="53dp"
+        android:layout_marginTop="82dp"
+        android:layout_marginEnd="25dp"
+        android:text="gender"
+        app:layout_constraintEnd_toStartOf="@+id/t7"
+        app:layout_constraintTop_toBottomOf="@+id/textView17" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
